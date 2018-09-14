@@ -1,1 +1,26 @@
-theme: jekyll-theme-slate
+# Site settings
+title: RACECAR
+header-img: img/header.png
+email: aanders@csail.mit.edu
+copyright_name: MIT RACECAR
+description: "A Powerful Platform for Robotics Research and Teaching"
+baseurl: ""
+url: "https://mit-racecar.github.io/"
+#twitter_username: SBootstrap
+github_username:  mit-racecar
+#facebook_username:  StartBootstrap
+email_username:  aanders@csail.mit.edu
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "/reference_code/page:num"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "contact.html"]
+
+gems: [jekyll-paginate, jekyll-feed]
